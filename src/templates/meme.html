@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+<h1> Yes! is it fine </h1>
+{% block title %}Meme Generator{% endblock %}
+{% block body %}
+<img src="{{ url_for('static', filename=path) }}"  />
+{% endblock %}
